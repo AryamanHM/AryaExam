@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
-
+import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
   title: 'AryaExam',
   description: 'An Online Exam Proctoring System made by CDAC DBDA Batch of March 2024.',
@@ -21,7 +21,11 @@ const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {
           <div className="w-full">{children}</div>
         </section>
       </div>
+      <footer>
+    <Analytics/>
+  </footer>
     </main>
+    
   );
 };
 
