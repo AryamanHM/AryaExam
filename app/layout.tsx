@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "AryaExam",
   description: "Online Exam Proctoring System",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/logo.jpg",
   },
 };
 
