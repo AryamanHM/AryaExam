@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
           <strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.
         </li>
         <li>
-          <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to AryaExam.
+          <strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to AryaExam.
         </li>
         <li>
           <strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.
@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
           <strong>Service</strong> refers to the Website.
         </li>
         <li>
-          <strong>Website</strong> refers to AryaExam, accessible from https://arya-exam.vercel.app/ .
+          <strong>Website</strong> refers to AryaExam, accessible from <a href="https://arya-exam.vercel.app/">https://arya-exam.vercel.app/</a>.
         </li>
         <li>
           <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
@@ -65,10 +65,11 @@ const PrivacyPolicy = () => {
           <strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
         </li>
         <li>
-          <strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
+          <strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application&apos;s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
         </li>
-        </ul>
-        </div>
-  )}
+      </ul>
+    </div>
+  );
+}
 
-  export default PrivacyPolicy
+export default PrivacyPolicy;
