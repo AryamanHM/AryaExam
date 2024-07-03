@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { FaGithub, FaYoutube, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
-  const current_year = new Date().getFullYear();
+  const currentYear = new Date().getFullYear(); // Change to camelCase: currentYear
   return (
     <div id="section_footer">
-       <div className="text-center py-4">
+      <div className="text-center py-4">
         <Link href="/privacy" className="btn btn-link">
           Privacy
         </Link>
@@ -18,7 +18,7 @@ const Footer = () => {
         <Link href="mailto:aryamanatcdac<aryamanatcdac@gmail.com>" className="btn btn-link">
           Contact
         </Link>
-        <p>Copyright © {current_year}, Aryaman, Avdhesh, Vedang, Vibhu. All Rights Reserved.</p>
+        <p>Copyright © {currentYear}, Aryaman, Avdhesh, Vedang, Vibhu. All Rights Reserved.</p>
         <div className="flex justify-center space-x-4 mt-4">
           <Link href="https://github.com/AryamanHM" target="_blank" className="btn btn-link">
             <FaGithub size={24} />

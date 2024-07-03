@@ -21,10 +21,10 @@ const TermsAndConditions = () => {
       <p className="mb-4">For the purposes of these Terms and Conditions:</p>
       <ul className="list-disc pl-6 mb-4">
         <li>
-          <strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+          <strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
         </li>
         <li>
-          <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to AryaExam.
+          <strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to AryaExam.
         </li>
         <li>
           <strong>Country</strong> refers to India.
@@ -33,13 +33,13 @@ const TermsAndConditions = () => {
           <strong>Service</strong> refers to the Website.
         </li>
         <li>
-          <strong>Terms and Conditions</strong> (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.
+          <strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.
         </li>
         <li>
           <strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
         </li>
         <li>
-          <strong>Website</strong> refers to AryaExam, accessible from https://arya-exam.vercel.app/
+          <strong>Website</strong> refers to AryaExam, accessible from <a href="https://arya-exam.vercel.app/">https://arya-exam.vercel.app/</a>
         </li>
         <li>
           <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
@@ -89,6 +89,8 @@ const TermsAndConditions = () => {
       <p className="mb-4">
         To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
       </p>
-      </div>
-  )}
-  export default TermsAndConditions
+    </div>
+  );
+}
+
+export default TermsAndConditions;
