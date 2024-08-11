@@ -1,16 +1,25 @@
-import MeetingTypeList from '@/components/MeetingTypeList';
+import MeetingTypeList from "@/components/MeetingTypeList";
+import SnowEffect from "@/components/SnowEffect";
+
 const Home = () => {
   const now = new Date();
 
-  const time = now.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
-  const date = (new Intl.DateTimeFormat('en-IN', { dateStyle: 'full' })).format(now);
+  const time = now.toLocaleTimeString("en-IN", {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+  const date = new Intl.DateTimeFormat("en-IN", { dateStyle: "full" }).format(
+    now
+  );
 
   return (
     <section className="flex size-full flex-col gap-5 text-white">
       <div className="h-[303px] w-full rounded-[20px] bg-hero bg-cover">
         <div className="flex h-full flex-col justify-between max-md:px-5 max-md:py-8 lg:p-11">
+          <SnowEffect /> {/* SnowEffect component to add the snow effect */}
           <h2 className="glassmorphism max-w-[800px] rounded py-2 text-center text-base font-normal">
-            Quote of the Day,Month and Year : Winners never Cheat and Cheaters never win.
+            Quote of the Day, Month, and Year: Winners never cheat, and cheaters
+            never win.
           </h2>
           <div className="flex flex-col gap-2">
             <h1 className="text-4xl font-extrabold lg:text-7xl">{time}</h1>
@@ -21,7 +30,6 @@ const Home = () => {
 
       <MeetingTypeList />
     </section>
-    
   );
 };
 

@@ -1,8 +1,10 @@
+import SnowEffect from '@/components/SnowEffect';
 import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
     <div className="container mx-auto p-6 text-white">
+      <SnowEffect />
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-4">Last updated: 3rd July 2024</p>
       
